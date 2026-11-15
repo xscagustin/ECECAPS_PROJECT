@@ -1,0 +1,23 @@
+Name: Hospital Database GUI
+
+Description:
+This project is about making a GUI that retrieves and adds data from a database.
+
+There are 6 pages, the login page, package monitor, inventory terminal, package receive, holds & review, and the audit log.
+
+The GUI is built mainly in Custom Tkinter and Tkinter. I want each page to be in its own TabView.
+
+The database used in MySQL
+
+The GUI must follow the rules set in "Chapter 4.pdf", though not strictly.
+
+The GUI design in visible in "Hospital Database GUI.pdf"
+
+The base logic is in "test.py" which is just shows how I connect to one table in my MySQL server, and the features i added along side it.
+
+I want to use this as a learning opportunity, when there is an error, I want you to tell me WHY, not give me an answer immediately, and allow me an opportunity to debug it myself. 
+
+Initial Prompt for each Page:
+
+Using test.py and "Hospital Database GUI" and "Chapter 4", create the first tab for the <package monitor page>.
+DO NOT make the code overly complex, add decent documentation. Keep it simple and easy to follow. Do not add multiple classes if not necessary.
